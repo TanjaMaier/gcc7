@@ -3,3 +3,4 @@ RUN sudo apt update && sudo apt install -y libeigen3-dev git build-essential cma
 RUN sudo apt install -y xorg-dev libglu-dev libassimp-dev
 RUN git clone https://github.com/Dav1dde/glad.git && cd glad && cmake ./ && make && sudo cp -a include /usr/local/
 
+RUN echo "test"
